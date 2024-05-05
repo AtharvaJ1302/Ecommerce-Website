@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/Patek Phillipe Green diamond.jpeg" width="100%" id="mainIMG" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/patek a.jpg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/patek b.jpg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/Patek Phillipe Green diamond.jpeg" class="small-img" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Luxury Watch</h6>
+            <h4>Patek Phillipe Nautilus Emrald</h4>
+            <h2>&#8377;5500.00</h2>
+            <input type="number" value="1">
+            <button class="normal">Add to cart</button>
+            <h4>Product Details</h4>
+            <span>The Patek Philippe Nautilus Emerald is a stunning and exclusive timepiece that embodies sophistication
+                and luxury. With its distinctive design, characterized by the iconic porthole-shaped case and integrated
+                bracelet, this particular version is distinguished by the striking emerald green dial. The rich green
+                hue adds a touch of elegance and uniqueness to the classic Nautilus aesthetic, making it a coveted
+                choice for watch enthusiasts and collectors alike. Crafted with meticulous attention to detail and
+                equipped with Patek Philippe's renowned craftsmanship and precision, the Nautilus Emerald is not only a
+                timekeeping instrument but also a symbol of refined taste and timeless style.</span>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Shop No. 12, Warje Naka, Pune</p>
+            <p><strong>Phone:</strong> +91 7431258902</p>
+            <p><strong>Hours:</strong> 10am to 9pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About us</a>
+            <a href="">Delivery Infromation</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms and Conditions</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Sign in</a>
+            <a href="">View Cart</a>
+            <a href="">Wishlist</a>
+            <a href="">Track Order</a>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024, Shop-Drop</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById('mainIMG');
+        var smallImg = document.getElementsByClassName('small-img')
+
+        smallImg[0].onclick = function () {
+            MainImg.src = smallImg[0].src;
+        }
+
+        smallImg[1].onclick = function () {
+            MainImg.src = smallImg[1].src;
+        }
+
+        smallImg[2].onclick = function () {
+            MainImg.src = smallImg[2].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

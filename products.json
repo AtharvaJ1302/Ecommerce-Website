@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name": "airpods pro 2",
+        "price": 999,
+        "image": "img/products/airpods pro 2.jpeg"
+    },
+    {
+        "id":2,
+        "name": "hk10",
+        "price": 2200,
+        "image": "img/products/hk10 pro max.jpeg"
+    },
+    {
+        "id":3,
+        "name": "patek phillipe",
+        "price": 5500,
+        "image": "img/products/Patek Phillipe Green diamond.jpeg"
+    },
+    {
+        "id":4,
+        "name": "Iphone 15 plus",
+        "price": 10000,
+        "image": "img/products/iphone 15 plus clone.png"
+    },
+    {
+        "id":5,
+        "name": "jordan retro 5",
+        "price": 5500,
+        "image": "img/products/Jordan retro 5.jpeg"
+    },
+    {
+        "id":6,
+        "name": "prada glasses",
+        "price": 900,
+        "image": "img/products/prada gogles.webp"
+    },
+    {
+        "id":7,
+        "name": "land mark music bar",
+        "price": 1500,
+        "image": "img/products/landmark speaker.jpeg"
+    },
+    {
+        "id":8,
+        "name": "Drone",
+        "price": 1750,
+        "image": "img/products/drone.jpeg"
+    }
+]
